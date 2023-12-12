@@ -6,6 +6,12 @@
     padding: 0;
     font-family: 'Abel', sans-serif;
     background-color: #F3F3F3;
+
+    /* COLORS */
+    --color1: #F3F3F3;
+    --color2: #E9DCBE;
+    --color3: #8E8B82;
+    --color4: #343434;
 }
 
 body {
@@ -17,6 +23,11 @@ body {
 /* NAVBAR */
 .navbar {
     height: 100px;
+    min-width: 400px;
+}
+
+.navbar__container {
+    padding: 0 30px;
 }
 
 /* NAVBAR LOGO */
@@ -33,12 +44,52 @@ body {
     margin: 0 15px;
 }
 
-.nav-link {
-    padding: 0;
+/* NAVBAR ICONS */
+.navbar__icon {
+    margin: 0 25px;
 }
 
 /* ------------------------------ MAIN */
 
+/* SLOGAN */
+.main__slogan {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    min-width: 400px;
+    padding: 0;
+}
+
+.slogan__h3 {
+    background-color: rgb(52, 52, 52, 0.8);
+    color: #F3F3F3;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+
+.slogan__img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
 /* ------------------------------ FOOTER */
 
 /* ------------------------------ QUERYS */
+@media (max-width: 992px) {
+
+    /* ------------------------------ HEADER */
+    /* NAVBAR LINKS */
+    .nav-item {
+        margin: 0;
+    }
+
+    /* NAVBAR LOGO */
+    .navbar__logo--img {
+        width: 250px;
+    }
+}
