@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: initial;
+}
+
+/* ------------------------------ HEADER */
+
+/* NAVBAR LOGO */
+.navbar__logo--img {
+    width: 300px;
+}
+
+/* ------------------------------ MAIN */
+
+/* ------------------------------ FOOTER */
