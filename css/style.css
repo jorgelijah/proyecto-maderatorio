@@ -4,6 +4,8 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    font-family: 'Abel', sans-serif;
+    background-color: #F3F3F3;
 }
 
 body {
@@ -12,11 +14,31 @@ body {
 
 /* ------------------------------ HEADER */
 
+/* NAVBAR */
+.navbar {
+    height: 100px;
+}
+
 /* NAVBAR LOGO */
+.navbar-brand {
+    margin: 0;
+}
+
 .navbar__logo--img {
     width: 300px;
+}
+
+/* NAVBAR LINKS */
+.nav-item {
+    margin: 0 15px;
+}
+
+.nav-link {
+    padding: 0;
 }
 
 /* ------------------------------ MAIN */
 
 /* ------------------------------ FOOTER */
+
+/* ------------------------------ QUERYS */
